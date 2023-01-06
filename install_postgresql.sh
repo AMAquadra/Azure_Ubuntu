@@ -1,8 +1,8 @@
 #!/bin/bash
 sudo apt-get update
 #install java
-sudo apt install default-jdk
-sudo apt install dos2unix
+sudo apt install default-jdk -y
+sudo apt install dos2unix -y
 #install the necessary tools
 sudo apt-get install gcc make libreadline6-dev zlib1g-dev -y
 #download postgresql source code
