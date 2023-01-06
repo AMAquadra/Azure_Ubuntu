@@ -6,7 +6,7 @@
       "value": "arcad_user_001"
     },
     "dnsNamePrefix": {
-      "value": "drops_ubuntu_001"
+      "value": "pc-drops-ubuntu-001"
     },
     "VmSize": {
       "value": "Standard_B2s"
