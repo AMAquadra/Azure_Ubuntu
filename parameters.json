@@ -18,7 +18,7 @@
       "value": "[resourceGroup().location]"
     },
     "authenticationType": {
-      "value": "sshPublicKey"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsFwAQFNSpOPN8tG8l5WXcF5OlzY7QaxLTz5cUwiRLBZoMw/Xos44UjePXzE+43j+vQwfyTxuQuUphgn9Mgv8MrNfeeidMmsYKfGLjq3ZjDId4D1xO2bSSYcZv7kND9TLfZv5Zp8xpLce55piYe/x2lBIOV+IlMtjh+M27JBggeywC+y4+0w2lhBGRIAQNNSuNC7QtNESmtcfVT7UZCIbm8Bp70gK3ClJPFIT6mEaZhTibfnOiBQkhV8Mx5Gtu1uJvwBxIlLv9KGEKoMr6qUVMU47/xb8MyggPORjiQJZQTFLk0P77hBKnv1cBeeOTsGK0lU+/rqUpt+LF17EObbh+CklfVlmR7rVUGa7tGGha1zrPlqVBaI4wnd702GXiGsByEbkrPKU9toHhBRT11IYT2KqWzuYH5JIyYuZjGeDbk5ZwgXc277qJcwVuUSjLrGnJBI3w1C9gVuFJlAnsZtg4Db0iF3vTnsfihr1cTTXQfpdEGXNUXsuqaQyvl7F/0yqWJngacC+zUFeC8u/SknkcjieUgQ8160CE7spS3WbPxoVI5nqKteLvIRJ/NaggVN19FALCSLfQTdlcCyvnd0ZJ3ViOpCmtOkdeEqggcYFEdN0/A2tc4uFhtKgZzMFtUL30hfxXSAcrk/qfuNUNCIlwoDY6LpCcVhaYrKHBli2U0Q=="
     },
     "adminPasswordOrKey": {
       "value": "QuadraQuadra23?"
