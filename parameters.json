@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "arcad_user_001"
+    },
+    "dnsNamePrefix": {
+      "value": "drops_Ubuntu_001"
+    },
+    "VmSize": {
+      "value": "Standard_B2s"
+    },
+    "ubuntuOSVersion": {
+      "value": "18.04-LTS"
+    },
+    "location": {
+      "value": "[resourceGroup().location]"
+    },
+    "authenticationType": {
+      "value": "sshPublicKey"
+    },
+    "adminPasswordOrKey": {
+      "value": "QuadraQuadra23?"
+    },
+    "_artifactsLocation": {
+      "value": "[deployment().properties.templateLink.uri]"
+    },
+    "_artifactsLocationSasToken": {
+      "value": null
+    }
+  }
+}
