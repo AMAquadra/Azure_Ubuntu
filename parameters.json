@@ -15,7 +15,7 @@
       "value": "18.04-LTS"
     },
     "location": {
-      "value": "[resourceGroup().location]"
+      "value": "East US 2"
     },
     "authenticationType": {
       "value": "sshPublicKey"
