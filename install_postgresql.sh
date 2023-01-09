@@ -10,11 +10,11 @@ sudo apt-get install gcc make libreadline6-dev zlib1g-dev -y
 #download postgresql source code
 wget https://ftp.postgresql.org/pub/source/v9.3.5/postgresql-9.3.5.tar.bz2 -P /tmp 2>/dev/null
 cd /tmp
-tar jxvf postgresql-9.3.5.tar.bz2
+sudo tar jxvf postgresql-9.3.5.tar.bz2
 cd postgresql-9.3.5
 
 #install postgresql
-./configure --prefix=/opt/postgresql-9.3.5
+sudo ./configure --prefix=/opt/postgresql-9.3.5
 sudo make install-world 2> /dev/null
 
 #create postgres user for postgresql
