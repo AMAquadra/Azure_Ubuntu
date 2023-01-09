@@ -15,8 +15,8 @@ cd postgresql-9.3.5
 
 #install postgresql
 sudo apt update
-sudo apt-get install build-essential
-sudo apt-get install libreadline-dev
+sudo apt-get install build-essential -y
+sudo apt-get install libreadline-dev -y
 
 sudo ./configure --prefix=/opt/postgresql-9.3.5
 sudo make install-world 2> /dev/null
