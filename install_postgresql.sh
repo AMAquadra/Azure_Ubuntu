@@ -14,6 +14,10 @@ sudo tar jxvf postgresql-9.3.5.tar.bz2
 cd postgresql-9.3.5
 
 #install postgresql
+sudo apt update
+sudo apt-get install build-essential
+sudo apt-get install libreadline-dev
+
 sudo ./configure --prefix=/opt/postgresql-9.3.5
 sudo make install-world 2> /dev/null
 
