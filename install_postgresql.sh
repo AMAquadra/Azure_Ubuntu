@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt-get update
+sudo apt-get -s upgrade 
 #install java
 sudo apt install default-jdk -y
 sudo apt install dos2unix -y
