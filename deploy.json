@@ -221,7 +221,7 @@
     "outputs": {
       "hostname": {
         "type": "string",
-        "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddressName'))).eastus2.cloudapp.azure.com]"
+        "value": "[concat(reference(resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddressName'))) , '.eastus2.cloudapp.azure.com')]"
     }
   }
 }
