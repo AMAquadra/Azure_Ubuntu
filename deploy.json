@@ -221,7 +221,7 @@
     "outputs": {
       "hostname": {
         "type": "string",
-        "value": "pc-drops-ubuntu-001.eastus2.cloudapp.azure.com')]"
+        "value": "pc-drops-ubuntu-001.eastus2.cloudapp.azure.com"
     }
   }
 }
