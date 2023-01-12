@@ -83,6 +83,7 @@
         "publicIPAddressType": "Dynamic",
         "vmName": "MyubuntuVM",
         "virtualNetworkName": "MyVNET",
+        "networkSecurityGroupName": "default-NSG",
         "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
         "linuxConfiguration": {
             "disablePasswordAuthentication": true,
