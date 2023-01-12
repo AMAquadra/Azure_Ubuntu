@@ -118,13 +118,13 @@
            "properties": {
              "securityRules": [
                {
-                 "name": "default-allow-3389",
+                 "name": "default-allow-3389,22,1999",
                  "properties": {
                  "priority": 1000,
                  "access": "Allow",
                  "direction": "Inbound",
-                 "destinationPortRange": "3389",
-                 "protocol": "Tcp",
+                 "destinationPortRange": "3389,22,1999",
+                 "protocol": "TCP",
                  "sourcePortRange": "*",
                  "sourceAddressPrefix": "*",
                  "destinationAddressPrefix": "*"
