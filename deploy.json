@@ -118,12 +118,25 @@
            "properties": {
              "securityRules": [
                {
-                 "name": "default-allow-22,1999",
+                 "name": "default-allow-22",
                  "properties": {
                  "priority": 1000,
                  "access": "Allow",
                  "direction": "Inbound",
-                 "destinationPortRange": "22,1999",
+                 "destinationPortRange": "22",
+                 "protocol": "TCP",
+                 "sourcePortRange": "*",
+                 "sourceAddressPrefix": "*",
+                 "destinationAddressPrefix": "*"
+                }
+              },
+              {
+                 "name": "default-allow-1999",
+                 "properties": {
+                 "priority": 1100,
+                 "access": "Allow",
+                 "direction": "Inbound",
+                 "destinationPortRange": "1999",
                  "protocol": "TCP",
                  "sourcePortRange": "*",
                  "sourceAddressPrefix": "*",
