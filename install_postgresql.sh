@@ -18,3 +18,6 @@ sudo -u postgres createuser -P drops
 
 # Accord des privilèges à l'utilisateur sur la base de données
 sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE drops TO drops;"
+
+
+sudo apt install default-jdk -y
