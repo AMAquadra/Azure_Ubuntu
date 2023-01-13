@@ -4,7 +4,7 @@ sudo apt-get update
 #install java
 sudo apt install default-jdk -y
 
-
+sudo apt-get update
 sudo apt-get install -y postgresql postgresql-contrib
 
 # Modification du mot de passe de l'utilisateur postgres
